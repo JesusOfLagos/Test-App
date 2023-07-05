@@ -1,8 +1,14 @@
 
-
+import logo from '/final.svg'
 
 export default function Logo (){
+
+    // const logo = final;
     return (
-        <h1 className="mb-20">This is the logo!</h1>
+
+        <>
+        <img className='pr-20' src={logo} alt="Logo"/>
+        
+        </>
     )
 }
